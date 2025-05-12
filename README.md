@@ -58,12 +58,7 @@ There are a lot of scenarios that can be tested by running the `test_simulation.
 
 ### Code Structure and Design Improvements
 
-
-* **Enum Usage**: Replace string constants with Python's Enum class for Direction and Command.
-* **Type Hinting**: Add type hints throughout the code to improve maintainability and IDE support.
-* **Car Position Management**: Create a Position or Coordinate class to encapsulate x,y coordinates.
 * **Constants File**: Move magic strings and values to a constants file or configuration.
-* **Interface Abstraction**: Create proper interfaces/abstract classes to allow for different UI implementations (CLI, GUI, etc.).
 
 ### Error Handling and Logging
 
